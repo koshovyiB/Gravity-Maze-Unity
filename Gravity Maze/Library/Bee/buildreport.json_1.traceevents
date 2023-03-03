@@ -1,0 +1,519 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1677842583885218, "dur": 4299138, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677842583885937, "dur": 5072, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677842583891011, "dur": 62814, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677842583953827, "dur": 1876831, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677842585830662, "dur": 2352699, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677842588183366, "dur": 989, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677842588186196, "dur": 48, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1677842585432275, "dur": 340178, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1677842585433943, "dur": 57680, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1677842585727647, "dur": 11193, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1677842585738846, "dur": 33560, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1677842585740631, "dur": 29520, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1677842585794300, "dur": 6612, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1677842585791046, "dur": 9971, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677842588186550, "dur": 798, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1677842585994349, "dur":3422, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677842585997784, "dur":189, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1677842585998026, "dur":51, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1677842585998078, "dur":1406, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1677842585999657, "dur":2069, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677842586001726, "dur":4, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677842588141783, "dur":625, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677842588142408, "dur":61, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677842588142469, "dur":11, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677842588142481, "dur":40, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677842588142521, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677842588142523, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677842588142539, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677842588142543, "dur":22, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677842588142565, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677842588142569, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677842588142583, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677842588142589, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677842588142604, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677842588142608, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677842588142624, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677842588142628, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677842588142642, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677842588142694, "dur":6, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677842588142764, "dur":10363, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1677842585999899, "dur":1868, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677842586001779, "dur":17128, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677842586018942, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1677842586018966, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677842586024956, "dur":2004, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1677842586026981, "dur":380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1677842586027416, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677842586028764, "dur":13693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1677842586042460, "dur":1152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1677842586044086, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677842586044235, "dur":3015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1677842586047371, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1677842586047632, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677842586047654, "dur":2965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1677842586050711, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1677842586050956, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677842586051086, "dur":3132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1677842586054335, "dur":2940, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1677842586057285, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677842586057310, "dur":2860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1677842586060269, "dur":251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1677842586060534, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677842586060555, "dur":2890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1677842586063541, "dur":329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1677842586063877, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677842586063897, "dur":3728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1677842586067696, "dur":3545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677842586071248, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677842586071575, "dur":2541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677842586074186, "dur":8996, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1677842586083191, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677842586083219, "dur":4262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1677842586087537, "dur":35196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677842586122766, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677842586123255, "dur":1793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677842586125097, "dur":52545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677842586177649, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677842586177662, "dur":1781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677842586179488, "dur":31892, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677842586211385, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677842586211398, "dur":1310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677842586212754, "dur":140777, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677842586353536, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677842586353554, "dur":1339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677842586354943, "dur":36213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677842586391161, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677842586391182, "dur":25544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677842586416797, "dur":90360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677842586507164, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677842586507176, "dur":5058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677842586512275, "dur":29981, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677842586542261, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677842586542273, "dur":2262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677842586544571, "dur":29685, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677842586574263, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677842586574276, "dur":1939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677842586576259, "dur":27924, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677842586604187, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677842586604195, "dur":1515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677842586605753, "dur":181416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677842586787176, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677842586787189, "dur":3389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677842586790620, "dur":278035, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677842587068661, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677842587068674, "dur":4384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677842587073111, "dur":94164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677842587167283, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677842587167300, "dur":2174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677842587169609, "dur":83860, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677842587253478, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677842587253497, "dur":1953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677842587255512, "dur":403567, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677842587659152, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677842587659164, "dur":2892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677842587662099, "dur":479667, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677842586000171, "dur":1649, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677842586001821, "dur":17148, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677842586018971, "dur":49813, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1677842586068791, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677842586068826, "dur":2192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1677842586071086, "dur":38656, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677842586109747, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677842586109848, "dur":9206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677842586119105, "dur":26867, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677842586145979, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677842586146023, "dur":2243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677842586148312, "dur":166624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677842586314942, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677842586314954, "dur":1298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677842586316295, "dur":141731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677842586458033, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677842586458046, "dur":1600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677842586459693, "dur":25933, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677842586485632, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677842586485646, "dur":1242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677842586486933, "dur":28602, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677842586515540, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677842586515551, "dur":3833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677842586519428, "dur":21515, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677842586540950, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677842586540964, "dur":1537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677842586542548, "dur":50424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677842586592978, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677842586592991, "dur":1789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677842586594822, "dur":147809, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677842586742638, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677842586742653, "dur":1614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677842586744313, "dur":205533, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677842586949852, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677842586949865, "dur":1585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677842586951492, "dur":183885, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677842587135386, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677842587135405, "dur":1945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677842587137404, "dur":201866, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677842587339274, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677842587339282, "dur":1411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677842587340731, "dur":263121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677842587603859, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677842587603878, "dur":1361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677842587605288, "dur":536475, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677842586000428, "dur":1445, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677842586001874, "dur":17091, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677842586018966, "dur":624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1677842586019904, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677842586042406, "dur":2160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1677842586044656, "dur":28954, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1677842586073618, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677842586073656, "dur":3230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1677842586076961, "dur":102003, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677842586178970, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677842586178982, "dur":4283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677842586183311, "dur":93113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677842586276457, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677842586276470, "dur":2191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677842586278703, "dur":72534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677842586351244, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677842586351281, "dur":1860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677842586353196, "dur":62393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677842586415599, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677842586415617, "dur":2051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677842586417723, "dur":30283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677842586448014, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677842586448027, "dur":1338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677842586449429, "dur":24985, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677842586474421, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677842586474449, "dur":1103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677842586475595, "dur":39413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677842586515015, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677842586515028, "dur":1565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677842586516641, "dur":33432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677842586550080, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677842586550095, "dur":16694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677842586566846, "dur":27731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677842586594583, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677842586594607, "dur":1308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677842586595959, "dur":45804, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677842586641770, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677842586641783, "dur":1216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677842586643040, "dur":134456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677842586777502, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677842586777513, "dur":1356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677842586778912, "dur":152573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677842586931490, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677842586931501, "dur":7606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677842586939149, "dur":229146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677842587168302, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677842587168317, "dur":1748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677842587170121, "dur":380475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677842587550605, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677842587550623, "dur":2301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677842587552996, "dur":1211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677842587554213, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677842587554300, "dur":1574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677842587555965, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1677842587556026, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677842587556124, "dur":1820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1677842587557997, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":3, "ts":1677842587558079, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677842587558092, "dur":1302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":3, "ts":1677842587559447, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":3, "ts":1677842587559498, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677842587559509, "dur":1065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":3, "ts":1677842587560620, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":3, "ts":1677842587560661, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677842587560671, "dur":1122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":3, "ts":1677842587561839, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1677842587561899, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677842587561910, "dur":1094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1677842587563049, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1677842587563094, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677842587563104, "dur":1630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1677842587564784, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1677842587564831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677842587564842, "dur":1411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1677842587566303, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1677842587566352, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677842587566363, "dur":1336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1677842587567742, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1677842587567898, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677842587567909, "dur":1110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1677842587569064, "dur":8435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1677842587577537, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677842587577550, "dur":1496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1677842587579094, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/level5.resS" }}
+,{ "pid":12345, "tid":3, "ts":1677842587579139, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677842587579149, "dur":1361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/level5.resS" }}
+,{ "pid":12345, "tid":3, "ts":1677842587580556, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/level5" }}
+,{ "pid":12345, "tid":3, "ts":1677842587580613, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677842587580624, "dur":1366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/level5" }}
+,{ "pid":12345, "tid":3, "ts":1677842587582041, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/level4.resS" }}
+,{ "pid":12345, "tid":3, "ts":1677842587582091, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677842587582101, "dur":1428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/level4.resS" }}
+,{ "pid":12345, "tid":3, "ts":1677842587583574, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/level4" }}
+,{ "pid":12345, "tid":3, "ts":1677842587583617, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677842587583627, "dur":1303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/level4" }}
+,{ "pid":12345, "tid":3, "ts":1677842587584972, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/level3.resS" }}
+,{ "pid":12345, "tid":3, "ts":1677842587585029, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677842587585038, "dur":1581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/level3.resS" }}
+,{ "pid":12345, "tid":3, "ts":1677842587586661, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1677842587586700, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677842587586710, "dur":1193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1677842587587947, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/level2.resS" }}
+,{ "pid":12345, "tid":3, "ts":1677842587587987, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677842587587996, "dur":1210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/level2.resS" }}
+,{ "pid":12345, "tid":3, "ts":1677842587589270, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1677842587589320, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677842587589329, "dur":1085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1677842587590457, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1677842587590499, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677842587590508, "dur":1490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1677842587592049, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1677842587592096, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677842587592107, "dur":2165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1677842587594327, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1677842587594371, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677842587594380, "dur":1267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1677842587595690, "dur":546092, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677842586000744, "dur":1219, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677842586001964, "dur":17022, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677842586018989, "dur":618, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1677842586019914, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677842586042393, "dur":7069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1677842586049552, "dur":24511, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1677842586074070, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677842586074086, "dur":2104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1677842586076264, "dur":437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1677842586076894, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677842586077485, "dur":12456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1677842586089991, "dur":65699, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677842586155697, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677842586155710, "dur":2347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677842586158106, "dur":37252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677842586195367, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677842586195381, "dur":3506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677842586198933, "dur":127624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677842586326570, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677842586326583, "dur":1494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677842586328120, "dur":57000, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677842586385126, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677842586385140, "dur":2553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677842586387737, "dur":51220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677842586438964, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677842586438977, "dur":4616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677842586443644, "dur":72019, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677842586515667, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677842586515677, "dur":17805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677842586533518, "dur":36632, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677842586570156, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677842586570169, "dur":4824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677842586575038, "dur":29010, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677842586604053, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677842586604065, "dur":2120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677842586606224, "dur":324529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677842586930758, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677842586930769, "dur":10784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677842586941634, "dur":569725, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677842587511366, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677842587511379, "dur":4978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677842587516428, "dur":495877, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677842588012311, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677842588012322, "dur":7200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677842588019565, "dur":122176, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677842586000987, "dur":1017, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677842586002005, "dur":16990, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677842586018998, "dur":613, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1677842586019941, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677842586044087, "dur":4777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1677842586048983, "dur":253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1677842586049245, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677842586050881, "dur":2997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1677842586053967, "dur":23458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1677842586077430, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677842586077445, "dur":1747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1677842586079248, "dur":28146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677842586107402, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677842586107866, "dur":1667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677842586109578, "dur":61002, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677842586170587, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677842586170600, "dur":1322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677842586171968, "dur":36619, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677842586208594, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677842586208610, "dur":1666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677842586210322, "dur":60491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677842586270817, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677842586270830, "dur":9599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677842586280470, "dur":56752, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677842586337230, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677842586337250, "dur":1849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677842586339162, "dur":24350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677842586363519, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677842586363531, "dur":5903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677842586369480, "dur":21085, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677842586390572, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677842586390584, "dur":1264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677842586391889, "dur":37119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677842586429015, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677842586429029, "dur":2591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677842586431664, "dur":54802, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677842586486472, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677842586486484, "dur":6718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677842586493245, "dur":49528, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677842586542777, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677842586542787, "dur":9737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677842586552589, "dur":248023, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677842586800618, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677842586800631, "dur":2793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677842586803469, "dur":535744, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677842587339219, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677842587339231, "dur":4554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677842587343824, "dur":102934, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677842587446764, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677842587446806, "dur":3017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677842587449867, "dur":679786, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677842588129668, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677842588129695, "dur":11831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677842588141619, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":5, "ts":1677842588141628, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677842586001303, "dur":729, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677842586002032, "dur":16958, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677842586018991, "dur":50477, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1677842586069475, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677842586069507, "dur":3217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1677842586072798, "dur":103017, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677842586175821, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677842586175831, "dur":48804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677842586224684, "dur":220497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677842586445188, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677842586445201, "dur":1653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677842586446904, "dur":69477, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677842586516403, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677842586516412, "dur":2128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677842586518601, "dur":25976, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677842586544582, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677842586544594, "dur":6696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677842586551350, "dur":43592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677842586594947, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677842586594959, "dur":8946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677842586603956, "dur":23176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677842586627137, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677842586627146, "dur":1262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677842586628450, "dur":148226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677842586776684, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677842586776715, "dur":1731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677842586778500, "dur":161601, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677842586940107, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677842586940120, "dur":1859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677842586942023, "dur":323954, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677842587265985, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677842587266001, "dur":2190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677842587268239, "dur":71273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677842587339516, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677842587339524, "dur":2023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677842587341587, "dur":263430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677842587605023, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677842587605034, "dur":1295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677842587606373, "dur":535357, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677842586001623, "dur":460, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677842586002084, "dur":16875, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677842586018964, "dur":79698, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1677842586098669, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677842586098987, "dur":1359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1677842586100391, "dur":56132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677842586156529, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677842586156541, "dur":2142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677842586158727, "dur":33028, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677842586191762, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677842586191788, "dur":3989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677842586195825, "dur":24176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677842586220008, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677842586220022, "dur":2048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677842586222127, "dur":196457, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677842586418590, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677842586418605, "dur":2897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677842586421556, "dur":27845, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677842586449407, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677842586449420, "dur":1342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677842586450816, "dur":48539, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677842586499362, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677842586499376, "dur":1221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677842586500652, "dur":142692, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677842586643349, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677842586643360, "dur":34394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677842586677813, "dur":252858, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677842586930678, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677842586930765, "dur":8009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677842586938827, "dur":129022, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677842587067856, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677842587067905, "dur":1725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677842587069684, "dur":184107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677842587253798, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677842587253812, "dur":6395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677842587260263, "dur":354397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677842587614667, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677842587614680, "dur":3759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677842587618489, "dur":523255, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677842586001942, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677842586001944, "dur":17055, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677842586019000, "dur":581, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1677842586019863, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677842586030025, "dur":10793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1677842586040903, "dur":31478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1677842586072389, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677842586072407, "dur":2330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1677842586074866, "dur":60648, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze.exe" }}
+,{ "pid":12345, "tid":8, "ts":1677842586135520, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677842586135530, "dur":3356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze.exe" }}
+,{ "pid":12345, "tid":8, "ts":1677842586139031, "dur":31815, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677842586170851, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677842586170863, "dur":2186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677842586173097, "dur":28196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677842586201300, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677842586201341, "dur":1965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677842586203355, "dur":61856, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677842586265218, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677842586265231, "dur":5376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677842586270647, "dur":56521, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677842586327172, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677842586327621, "dur":12771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677842586340452, "dur":106287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677842586446746, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677842586446759, "dur":3104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677842586449909, "dur":66768, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677842586516682, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677842586516692, "dur":16056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677842586532791, "dur":94257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677842586627055, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677842586627068, "dur":7518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677842586634631, "dur":152679, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677842586787315, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677842586787325, "dur":2555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677842586789940, "dur":533231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677842587323177, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677842587323190, "dur":1767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677842587325000, "dur":263401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677842587588406, "dur":57, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677842587588473, "dur":2146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677842587590659, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/level1" }}
+,{ "pid":12345, "tid":8, "ts":1677842587590701, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677842587590709, "dur":1686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/level1" }}
+,{ "pid":12345, "tid":8, "ts":1677842587592437, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1677842587592480, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677842587592488, "dur":1167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1677842587593699, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1677842587593746, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677842587593826, "dur":1656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1677842587595526, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1677842587595669, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677842587595679, "dur":959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bohdan/Documents/GitHub/Gravity-Maze-Unity/Gravity Maze_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1677842587596686, "dur":545050, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677842588157901, "dur":8710, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1677842588187547, "dur": 14809, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677842588186147, "dur": 16299, "ph": "X", "name": "Write chrome-trace events", "args": {} },
