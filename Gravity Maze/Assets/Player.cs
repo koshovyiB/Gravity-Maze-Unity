@@ -27,7 +27,8 @@ public class Player : MonoBehaviour
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
-    }
+    } 
+
     private void OnTriggerEnter(Collider other)
     {
         if(this.CompareTag("Player") && other.CompareTag("Finish"))
